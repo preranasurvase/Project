@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#toast .toast-box {
+  border: 1px solid #e2e8f0;
+  background: #0f172a;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.2);
+}
+
+.show-toast {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.product-image,
+.cart-thumb {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #ffffff;
+}
